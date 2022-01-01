@@ -1,2 +1,2 @@
-# design-pattern-fellowship
-Learning and implementing design patterns
+# Design Patterns - AssemblyF
+Learning and implementing Design Patterns
