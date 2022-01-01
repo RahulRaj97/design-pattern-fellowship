@@ -1,13 +1,20 @@
+"""
+State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. 
+It appears as if the object changed its class.
+"""
+
 import time
+from abc import abstractmethod
 
 class TurnstileStates():
     """
     The base State class
     """  
-    
+    @abstractmethod
     def enter(self):
         pass
 
+    @abstractmethod
     def pay(self):
         pass
 
